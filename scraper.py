@@ -38,10 +38,17 @@ except ImportError:
         )
 
 # ── Sort options (defensive: HELPFULNESS may not exist in all versions) ───────
-try:
-    _MOST_RELEVANT_SORT = Sort.HELPFULNESS
-except AttributeError:
-    _MOST_RELEVANT_SORT = Sort.RATING  # type: ignore  # closest fallback
+def _resolve_sort(*names: str) -> Any:
+    """Return the first Sort member that exists in the installed version."""
+    for name in names:
+        try:
+            return getattr(Sort, name)
+        except AttributeError:
+            continue
+    return Sort.NEWEST  # guaranteed to exist in all known versions
+
+
+_MOST_RELEVANT_SORT = _resolve_sort("HELPFULNESS", "RATING", "MOST_RELEVANT")
 
 SORT_OPTIONS: list[tuple[Any, str]] = [
     (_MOST_RELEVANT_SORT, "MOST_RELEVANT"),
