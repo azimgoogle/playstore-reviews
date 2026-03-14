@@ -5,8 +5,9 @@ Google Play Store review scraper for com.google.android.apps.kids.familylink
 Usage:
     python scraper.py [--max-minutes N]
 
-Fetches reviews in batches, deduplicates by review_id, appends to reviews.csv,
-and tracks continuation tokens / run state in state.json.
+Output is split by language into data/reviews_{lang}.csv so each file
+stays small enough to upload directly to an AI tool for analysis.
+State is tracked in state.json; logs go to scrape.log.
 """
 
 import argparse
@@ -57,7 +58,7 @@ SORT_OPTIONS: list[tuple[Any, str]] = [
 
 # ── Constants ─────────────────────────────────────────────────────────────────
 APP_ID = "com.google.android.apps.kids.familylink"
-REVIEWS_FILE = "reviews.csv"
+DATA_DIR = "data"                    # all per-language CSV files live here
 STATE_FILE = "state.json"
 LOG_FILE = "scrape.log"
 
@@ -194,33 +195,47 @@ def save_state(state: dict) -> None:
 
 # ── CSV helpers ───────────────────────────────────────────────────────────────
 
+def _reviews_path(lang: str) -> str:
+    """Return the CSV path for a given language, e.g. data/reviews_en.csv"""
+    return os.path.join(DATA_DIR, f"reviews_{lang}.csv")
+
+
 def load_existing_ids() -> set:
-    """Read only the review_id column from reviews.csv into a set."""
+    """
+    Read review_id from every data/reviews_*.csv into one set.
+    This prevents cross-language duplicates even if the same review
+    appears in multiple language passes.
+    """
     ids: set = set()
-    if not os.path.exists(REVIEWS_FILE):
+    if not os.path.isdir(DATA_DIR):
         return ids
-    try:
-        with open(REVIEWS_FILE, "r", encoding="utf-8", newline="") as fh:
-            reader = csv.DictReader(fh)
-            for row in reader:
-                rid = (row.get("review_id") or "").strip()
-                if rid:
-                    ids.add(rid)
-    except OSError:
-        pass
+    for fname in os.listdir(DATA_DIR):
+        if not (fname.startswith("reviews_") and fname.endswith(".csv")):
+            continue
+        fpath = os.path.join(DATA_DIR, fname)
+        try:
+            with open(fpath, "r", encoding="utf-8", newline="") as fh:
+                for row in csv.DictReader(fh):
+                    rid = (row.get("review_id") or "").strip()
+                    if rid:
+                        ids.add(rid)
+        except OSError:
+            pass
     return ids
 
 
-def ensure_header() -> None:
-    """Write CSV header if and only if reviews.csv does not yet exist."""
-    if not os.path.exists(REVIEWS_FILE):
-        with open(REVIEWS_FILE, "w", encoding="utf-8", newline="") as fh:
+def ensure_header(lang: str) -> None:
+    """Create data/reviews_{lang}.csv with header row if it doesn't exist yet."""
+    os.makedirs(DATA_DIR, exist_ok=True)
+    path = _reviews_path(lang)
+    if not os.path.exists(path):
+        with open(path, "w", encoding="utf-8", newline="") as fh:
             csv.DictWriter(fh, fieldnames=CSV_COLUMNS).writeheader()
 
 
-def append_rows(rows: list[dict]) -> None:
-    """Append rows to reviews.csv (append-only, never overwrites)."""
-    with open(REVIEWS_FILE, "a", encoding="utf-8", newline="") as fh:
+def append_rows(rows: list[dict], lang: str) -> None:
+    """Append rows to data/reviews_{lang}.csv (append-only, never overwrites)."""
+    with open(_reviews_path(lang), "a", encoding="utf-8", newline="") as fh:
         csv.DictWriter(fh, fieldnames=CSV_COLUMNS).writerows(rows)
 
 
@@ -267,6 +282,7 @@ class Scraper:
         self.existing_ids = load_existing_ids()
         self.new_count = 0
         self.skipped_count = 0
+        self.new_per_lang: dict[str, int] = {}
 
         signal.signal(signal.SIGTERM, self._on_signal)
         signal.signal(signal.SIGINT, self._on_signal)
@@ -342,14 +358,10 @@ class Scraper:
     # ── Main run loop ─────────────────────────────────────────────────────────
 
     def run(self) -> None:
-        ensure_header()
-
         sort_index: int = self.state.get("sort_index", 0) % len(SORT_OPTIONS)
         sort_enum, sort_name = SORT_OPTIONS[sort_index]
 
-        self.logger.info(
-            f"{'=' * 20} Run started {'=' * 20}"
-        )
+        self.logger.info("=" * 20 + " Run started " + "=" * 20)
         self.logger.info(
             f"sort={sort_name}  max_minutes={self.max_minutes}  "
             f"existing_ids={len(self.existing_ids)}  "
@@ -362,14 +374,17 @@ class Scraper:
                     self.logger.info("Stopping: shutdown or timeout reached.")
                     break
 
+                ensure_header(lang)  # creates data/reviews_{lang}.csv if needed
                 country = LANG_COUNTRY.get(lang, "us")
                 token_key = f"{sort_name}:{lang}"
                 saved_token_data = self.state.get("tokens", {}).get(token_key)
                 token = deserialize_token(saved_token_data)
+                self.new_per_lang.setdefault(lang, 0)
 
                 self.logger.info(
                     f"── Language {lang_idx + 1}/{len(LANGUAGES)}: "
                     f"lang={lang}  country={country}  sort={sort_name}  "
+                    f"file={_reviews_path(lang)}  "
                     f"token={'resume' if token else 'start'}"
                 )
 
@@ -404,10 +419,11 @@ class Scraper:
                         self.existing_ids.add(rid)
 
                     if new_rows:
-                        append_rows(new_rows)
+                        append_rows(new_rows, lang)
                         self.new_count += len(new_rows)
+                        self.new_per_lang[lang] += len(new_rows)
                         self.logger.info(
-                            f"    +{len(new_rows)} new rows written  "
+                            f"    +{len(new_rows)} new rows → {_reviews_path(lang)}  "
                             f"(run total new: {self.new_count}  "
                             f"skipped so far: {self.skipped_count})"
                         )
@@ -453,7 +469,18 @@ class Scraper:
             save_state(self.state)
 
             elapsed = self._elapsed()
-            total_in_file = len(self.existing_ids)
+            total_ids = len(self.existing_ids)
+
+            # Per-language row counts from files on disk
+            per_lang_rows: dict[str, int] = {}
+            for lang in LANGUAGES:
+                path = _reviews_path(lang)
+                if os.path.exists(path):
+                    try:
+                        with open(path, "r", encoding="utf-8", newline="") as fh:
+                            per_lang_rows[lang] = sum(1 for _ in csv.DictReader(fh))
+                    except OSError:
+                        per_lang_rows[lang] = 0
 
             lines = [
                 "",
@@ -462,15 +489,26 @@ class Scraper:
                 "=" * 64,
                 f"  Sort order used     : {sort_name}",
                 f"  New reviews added   : {self.new_count}",
-                f"  Total in file       : {total_in_file}",
+                f"  Total unique IDs    : {total_ids}",
                 f"  Duplicates skipped  : {self.skipped_count}",
                 f"  Run duration        : {elapsed:.0f}s  ({elapsed / 60:.1f} min)",
-                "=" * 64,
+                "",
+                "  Per-language files (data/):",
             ]
+            for lang in LANGUAGES:
+                path = _reviews_path(lang)
+                added = self.new_per_lang.get(lang, 0)
+                total = per_lang_rows.get(lang, 0)
+                exists = "✓" if os.path.exists(path) else "–"
+                lines.append(
+                    f"    {exists} reviews_{lang}.csv"
+                    f"  total={total:>6}  added this run={added}"
+                )
+            lines.append("=" * 64)
             print("\n".join(lines))
 
             self.logger.info(
-                f"Run complete — new={self.new_count}  total={total_in_file}  "
+                f"Run complete — new={self.new_count}  total_ids={total_ids}  "
                 f"skipped={self.skipped_count}  duration={elapsed:.0f}s"
             )
 
