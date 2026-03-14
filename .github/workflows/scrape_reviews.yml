@@ -1,0 +1,74 @@
+name: Scrape Play Store Reviews
+
+on:
+  schedule:
+    # Every 2 hours
+    - cron: "0 */2 * * *"
+  # Allow manual trigger from the Actions UI
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    # A failed run must never block the next scheduled run
+    continue-on-error: true
+
+    steps:
+      # ── 1. Checkout ──────────────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Full history so git log / blame work and pushes don't conflict
+          fetch-depth: 0
+
+      # ── 2. Python ────────────────────────────────────────────────────────────
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # ── 3. Dependency cache ───────────────────────────────────────────────────
+      - name: Cache pip packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          # Cache key changes when requirements.txt changes
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      # ── 4. Install dependencies ───────────────────────────────────────────────
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # ── 5. Run scraper ────────────────────────────────────────────────────────
+      - name: Run scraper
+        run: python scraper.py --max-minutes 50
+
+      # ── 6. Commit & push data back to repo ───────────────────────────────────
+      #
+      # Runs with `if: always()` so data collected before a crash is not lost.
+      # Uses `git pull --rebase` before pushing to handle rare concurrent runs.
+      # The `[skip ci]` tag prevents this commit from triggering another run.
+      - name: Commit and push results
+        if: always()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Rebase on top of any remote changes made by a concurrent run
+          git pull --rebase origin "${{ github.ref_name }}"
+
+          # Stage the three output files (they may not all exist on the very
+          # first run if the scraper crashed before writing anything, so use
+          # --ignore-errors / allow missing files gracefully)
+          git add --force reviews.csv state.json scrape.log 2>/dev/null || true
+
+          # Only commit when there is actually something new
+          if git diff --cached --quiet; then
+            echo "Nothing to commit — no new data collected."
+          else
+            git commit -m "chore: update reviews data [skip ci]"
+            git push origin "${{ github.ref_name }}"
+          fi
