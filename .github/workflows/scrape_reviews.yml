@@ -49,7 +49,8 @@ jobs:
       # ── 6. Commit & push data back to repo ───────────────────────────────────
       #
       # Runs with `if: always()` so data collected before a crash is not lost.
-      # Uses `git pull --rebase` before pushing to handle rare concurrent runs.
+      # Uses `git pull --rebase --autostash` before pushing to handle rare
+      # concurrent runs without failing on scraper-written files.
       # The `[skip ci]` tag prevents this commit from triggering another run.
       - name: Commit and push results
         if: always()
@@ -57,8 +58,10 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Rebase on top of any remote changes made by a concurrent run
-          git pull --rebase origin "${{ github.ref_name }}"
+          # Rebase on top of any remote changes made by a concurrent run.
+          # --autostash temporarily shelves scraper-written files so the
+          # rebase succeeds, then restores them automatically.
+          git pull --rebase --autostash origin "${{ github.ref_name }}"
 
           # Stage all per-language CSV files plus state and log.
           # data/ may not exist on the very first run if the scraper crashed
