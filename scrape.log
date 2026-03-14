@@ -24,3 +24,473 @@
 2026-03-14T09:44:25Z [INFO]     +200 new rows written  (run total new: 2000  skipped so far: 0)
 2026-03-14T09:44:32Z [INFO]   Batch 11 | lang=en | remaining=2905s
 2026-03-14T09:44:33Z [INFO]     +200 new rows written  (run total new: 2200  skipped so far: 0)
+2026-03-14T16:32:39Z [INFO] Scraper initialising — app=com.google.android.apps.kids.familylink  max_minutes=50
+2026-03-14T16:32:39Z [INFO] ==================== Run started ====================
+2026-03-14T16:32:39Z [INFO] sort=MOST_RELEVANT  max_minutes=50  existing_ids=0  state_total_fetched=0
+2026-03-14T16:32:39Z [INFO] ── Language 1/6: lang=en  country=us  sort=MOST_RELEVANT  file=data/reviews_en.csv  token=start
+2026-03-14T16:32:39Z [INFO]   Batch 1 | lang=en | remaining=3000s
+2026-03-14T16:32:39Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 200  skipped so far: 0)
+2026-03-14T16:32:49Z [INFO]   Batch 2 | lang=en | remaining=2990s
+2026-03-14T16:32:49Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 400  skipped so far: 0)
+2026-03-14T16:32:54Z [INFO]   Batch 3 | lang=en | remaining=2984s
+2026-03-14T16:32:55Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 600  skipped so far: 0)
+2026-03-14T16:33:09Z [INFO]   Batch 4 | lang=en | remaining=2970s
+2026-03-14T16:33:09Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 800  skipped so far: 0)
+2026-03-14T16:33:16Z [INFO]   Batch 5 | lang=en | remaining=2962s
+2026-03-14T16:33:17Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 1000  skipped so far: 0)
+2026-03-14T16:33:31Z [INFO]   Batch 6 | lang=en | remaining=2948s
+2026-03-14T16:33:32Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 1200  skipped so far: 0)
+2026-03-14T16:33:38Z [INFO]   Batch 7 | lang=en | remaining=2941s
+2026-03-14T16:33:39Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 1400  skipped so far: 0)
+2026-03-14T16:33:52Z [INFO]   Batch 8 | lang=en | remaining=2927s
+2026-03-14T16:33:52Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 1600  skipped so far: 0)
+2026-03-14T16:34:03Z [INFO]   Batch 9 | lang=en | remaining=2916s
+2026-03-14T16:34:04Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 1800  skipped so far: 0)
+2026-03-14T16:34:16Z [INFO]   Batch 10 | lang=en | remaining=2903s
+2026-03-14T16:34:17Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 2000  skipped so far: 0)
+2026-03-14T16:34:29Z [INFO]   Batch 11 | lang=en | remaining=2889s
+2026-03-14T16:34:30Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 2200  skipped so far: 0)
+2026-03-14T16:34:39Z [INFO]   Batch 12 | lang=en | remaining=2880s
+2026-03-14T16:34:40Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 2400  skipped so far: 0)
+2026-03-14T16:34:45Z [INFO]   Batch 13 | lang=en | remaining=2874s
+2026-03-14T16:34:46Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 2600  skipped so far: 0)
+2026-03-14T16:35:00Z [INFO]   Batch 14 | lang=en | remaining=2858s
+2026-03-14T16:35:01Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 2800  skipped so far: 0)
+2026-03-14T16:35:07Z [INFO]   Batch 15 | lang=en | remaining=2852s
+2026-03-14T16:35:08Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 3000  skipped so far: 0)
+2026-03-14T16:35:20Z [INFO]   Batch 16 | lang=en | remaining=2838s
+2026-03-14T16:35:21Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 3200  skipped so far: 0)
+2026-03-14T16:35:36Z [INFO]   Batch 17 | lang=en | remaining=2822s
+2026-03-14T16:35:37Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 3400  skipped so far: 0)
+2026-03-14T16:35:48Z [INFO]   Batch 18 | lang=en | remaining=2811s
+2026-03-14T16:35:48Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 3600  skipped so far: 0)
+2026-03-14T16:36:00Z [INFO]   Batch 19 | lang=en | remaining=2799s
+2026-03-14T16:36:00Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 3800  skipped so far: 0)
+2026-03-14T16:36:10Z [INFO]   Batch 20 | lang=en | remaining=2789s
+2026-03-14T16:36:11Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 4000  skipped so far: 0)
+2026-03-14T16:36:20Z [INFO]   Batch 21 | lang=en | remaining=2779s
+2026-03-14T16:36:21Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 4200  skipped so far: 0)
+2026-03-14T16:36:29Z [INFO]   Batch 22 | lang=en | remaining=2770s
+2026-03-14T16:36:30Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 4400  skipped so far: 0)
+2026-03-14T16:36:37Z [INFO]   Batch 23 | lang=en | remaining=2761s
+2026-03-14T16:36:38Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 4600  skipped so far: 0)
+2026-03-14T16:36:46Z [INFO]   Batch 24 | lang=en | remaining=2753s
+2026-03-14T16:36:47Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 4800  skipped so far: 0)
+2026-03-14T16:36:53Z [INFO]   Batch 25 | lang=en | remaining=2746s
+2026-03-14T16:36:54Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 5000  skipped so far: 0)
+2026-03-14T16:37:09Z [INFO]   Batch 26 | lang=en | remaining=2730s
+2026-03-14T16:37:10Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 5200  skipped so far: 0)
+2026-03-14T16:37:15Z [INFO]   Batch 27 | lang=en | remaining=2723s
+2026-03-14T16:37:16Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 5400  skipped so far: 0)
+2026-03-14T16:37:29Z [INFO]   Batch 28 | lang=en | remaining=2709s
+2026-03-14T16:37:30Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 5600  skipped so far: 0)
+2026-03-14T16:37:42Z [INFO]   Batch 29 | lang=en | remaining=2697s
+2026-03-14T16:37:43Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 5800  skipped so far: 0)
+2026-03-14T16:37:57Z [INFO]   Batch 30 | lang=en | remaining=2681s
+2026-03-14T16:37:58Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 6000  skipped so far: 0)
+2026-03-14T16:38:10Z [INFO]   Batch 31 | lang=en | remaining=2669s
+2026-03-14T16:38:11Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 6200  skipped so far: 0)
+2026-03-14T16:38:23Z [INFO]   Batch 32 | lang=en | remaining=2656s
+2026-03-14T16:38:24Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 6400  skipped so far: 0)
+2026-03-14T16:38:35Z [INFO]   Batch 33 | lang=en | remaining=2644s
+2026-03-14T16:38:36Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 6600  skipped so far: 0)
+2026-03-14T16:38:44Z [INFO]   Batch 34 | lang=en | remaining=2635s
+2026-03-14T16:38:45Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 6800  skipped so far: 0)
+2026-03-14T16:38:59Z [INFO]   Batch 35 | lang=en | remaining=2620s
+2026-03-14T16:39:00Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 7000  skipped so far: 0)
+2026-03-14T16:39:14Z [INFO]   Batch 36 | lang=en | remaining=2605s
+2026-03-14T16:39:15Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 7200  skipped so far: 0)
+2026-03-14T16:39:24Z [INFO]   Batch 37 | lang=en | remaining=2595s
+2026-03-14T16:39:25Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 7400  skipped so far: 0)
+2026-03-14T16:39:38Z [INFO]   Batch 38 | lang=en | remaining=2581s
+2026-03-14T16:39:39Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 7600  skipped so far: 0)
+2026-03-14T16:39:46Z [INFO]   Batch 39 | lang=en | remaining=2572s
+2026-03-14T16:39:47Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 7800  skipped so far: 0)
+2026-03-14T16:39:54Z [INFO]   Batch 40 | lang=en | remaining=2565s
+2026-03-14T16:39:55Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 8000  skipped so far: 0)
+2026-03-14T16:40:01Z [INFO]   Batch 41 | lang=en | remaining=2557s
+2026-03-14T16:40:02Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 8200  skipped so far: 0)
+2026-03-14T16:40:09Z [INFO]   Batch 42 | lang=en | remaining=2550s
+2026-03-14T16:40:10Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 8400  skipped so far: 0)
+2026-03-14T16:40:19Z [INFO]   Batch 43 | lang=en | remaining=2540s
+2026-03-14T16:40:20Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 8600  skipped so far: 0)
+2026-03-14T16:40:26Z [INFO]   Batch 44 | lang=en | remaining=2533s
+2026-03-14T16:40:27Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 8800  skipped so far: 0)
+2026-03-14T16:40:41Z [INFO]   Batch 45 | lang=en | remaining=2518s
+2026-03-14T16:40:42Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 9000  skipped so far: 0)
+2026-03-14T16:40:48Z [INFO]   Batch 46 | lang=en | remaining=2511s
+2026-03-14T16:40:49Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 9200  skipped so far: 0)
+2026-03-14T16:41:02Z [INFO]   Batch 47 | lang=en | remaining=2496s
+2026-03-14T16:41:04Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 9400  skipped so far: 0)
+2026-03-14T16:41:09Z [INFO]   Batch 48 | lang=en | remaining=2489s
+2026-03-14T16:41:10Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 9600  skipped so far: 0)
+2026-03-14T16:41:24Z [INFO]   Batch 49 | lang=en | remaining=2475s
+2026-03-14T16:41:25Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 9800  skipped so far: 0)
+2026-03-14T16:41:39Z [INFO]   Batch 50 | lang=en | remaining=2460s
+2026-03-14T16:41:41Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 10000  skipped so far: 0)
+2026-03-14T16:41:52Z [INFO]   Batch 51 | lang=en | remaining=2447s
+2026-03-14T16:41:54Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 10200  skipped so far: 0)
+2026-03-14T16:42:06Z [INFO]   Batch 52 | lang=en | remaining=2433s
+2026-03-14T16:42:07Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 10400  skipped so far: 0)
+2026-03-14T16:42:17Z [INFO]   Batch 53 | lang=en | remaining=2421s
+2026-03-14T16:42:19Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 10600  skipped so far: 0)
+2026-03-14T16:42:24Z [INFO]   Batch 54 | lang=en | remaining=2415s
+2026-03-14T16:42:26Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 10800  skipped so far: 0)
+2026-03-14T16:42:39Z [INFO]   Batch 55 | lang=en | remaining=2400s
+2026-03-14T16:42:41Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 11000  skipped so far: 0)
+2026-03-14T16:42:54Z [INFO]   Batch 56 | lang=en | remaining=2385s
+2026-03-14T16:42:56Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 11200  skipped so far: 0)
+2026-03-14T16:43:04Z [INFO]   Batch 57 | lang=en | remaining=2375s
+2026-03-14T16:43:06Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 11400  skipped so far: 0)
+2026-03-14T16:43:14Z [INFO]   Batch 58 | lang=en | remaining=2364s
+2026-03-14T16:43:16Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 11600  skipped so far: 0)
+2026-03-14T16:43:27Z [INFO]   Batch 59 | lang=en | remaining=2351s
+2026-03-14T16:43:29Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 11800  skipped so far: 0)
+2026-03-14T16:43:42Z [INFO]   Batch 60 | lang=en | remaining=2336s
+2026-03-14T16:43:44Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 12000  skipped so far: 0)
+2026-03-14T16:43:58Z [INFO]   Batch 61 | lang=en | remaining=2321s
+2026-03-14T16:44:00Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 12200  skipped so far: 0)
+2026-03-14T16:44:08Z [INFO]   Batch 62 | lang=en | remaining=2311s
+2026-03-14T16:44:10Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 12400  skipped so far: 0)
+2026-03-14T16:44:23Z [INFO]   Batch 63 | lang=en | remaining=2296s
+2026-03-14T16:44:25Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 12600  skipped so far: 0)
+2026-03-14T16:44:34Z [INFO]   Batch 64 | lang=en | remaining=2285s
+2026-03-14T16:44:35Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 12800  skipped so far: 0)
+2026-03-14T16:44:47Z [INFO]   Batch 65 | lang=en | remaining=2271s
+2026-03-14T16:44:49Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 13000  skipped so far: 0)
+2026-03-14T16:44:59Z [INFO]   Batch 66 | lang=en | remaining=2260s
+2026-03-14T16:45:01Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 13200  skipped so far: 0)
+2026-03-14T16:45:09Z [INFO]   Batch 67 | lang=en | remaining=2250s
+2026-03-14T16:45:11Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 13400  skipped so far: 0)
+2026-03-14T16:45:20Z [INFO]   Batch 68 | lang=en | remaining=2239s
+2026-03-14T16:45:22Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 13600  skipped so far: 0)
+2026-03-14T16:45:36Z [INFO]   Batch 69 | lang=en | remaining=2223s
+2026-03-14T16:45:38Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 13800  skipped so far: 0)
+2026-03-14T16:45:51Z [INFO]   Batch 70 | lang=en | remaining=2208s
+2026-03-14T16:45:53Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 14000  skipped so far: 0)
+2026-03-14T16:46:07Z [INFO]   Batch 71 | lang=en | remaining=2192s
+2026-03-14T16:46:09Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 14200  skipped so far: 0)
+2026-03-14T16:46:23Z [INFO]   Batch 72 | lang=en | remaining=2175s
+2026-03-14T16:46:25Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 14400  skipped so far: 0)
+2026-03-14T16:46:37Z [INFO]   Batch 73 | lang=en | remaining=2162s
+2026-03-14T16:46:39Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 14600  skipped so far: 0)
+2026-03-14T16:46:47Z [INFO]   Batch 74 | lang=en | remaining=2151s
+2026-03-14T16:46:49Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 14800  skipped so far: 0)
+2026-03-14T16:46:59Z [INFO]   Batch 75 | lang=en | remaining=2140s
+2026-03-14T16:47:01Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 15000  skipped so far: 0)
+2026-03-14T16:47:08Z [INFO]   Batch 76 | lang=en | remaining=2131s
+2026-03-14T16:47:10Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 15200  skipped so far: 0)
+2026-03-14T16:47:20Z [INFO]   Batch 77 | lang=en | remaining=2118s
+2026-03-14T16:47:23Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 15400  skipped so far: 0)
+2026-03-14T16:47:32Z [INFO]   Batch 78 | lang=en | remaining=2106s
+2026-03-14T16:47:34Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 15600  skipped so far: 0)
+2026-03-14T16:47:44Z [INFO]   Batch 79 | lang=en | remaining=2095s
+2026-03-14T16:47:46Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 15800  skipped so far: 0)
+2026-03-14T16:47:52Z [INFO]   Batch 80 | lang=en | remaining=2086s
+2026-03-14T16:47:54Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 16000  skipped so far: 0)
+2026-03-14T16:48:09Z [INFO]   Batch 81 | lang=en | remaining=2070s
+2026-03-14T16:48:11Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 16200  skipped so far: 0)
+2026-03-14T16:48:25Z [INFO]   Batch 82 | lang=en | remaining=2054s
+2026-03-14T16:48:27Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 16400  skipped so far: 0)
+2026-03-14T16:48:33Z [INFO]   Batch 83 | lang=en | remaining=2046s
+2026-03-14T16:48:35Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 16600  skipped so far: 0)
+2026-03-14T16:48:45Z [INFO]   Batch 84 | lang=en | remaining=2034s
+2026-03-14T16:48:47Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 16800  skipped so far: 0)
+2026-03-14T16:48:54Z [INFO]   Batch 85 | lang=en | remaining=2025s
+2026-03-14T16:48:56Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 17000  skipped so far: 0)
+2026-03-14T16:49:03Z [INFO]   Batch 86 | lang=en | remaining=2016s
+2026-03-14T16:49:05Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 17200  skipped so far: 0)
+2026-03-14T16:49:18Z [INFO]   Batch 87 | lang=en | remaining=2000s
+2026-03-14T16:49:21Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 17400  skipped so far: 0)
+2026-03-14T16:49:26Z [INFO]   Batch 88 | lang=en | remaining=1992s
+2026-03-14T16:49:29Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 17600  skipped so far: 0)
+2026-03-14T16:49:37Z [INFO]   Batch 89 | lang=en | remaining=1982s
+2026-03-14T16:49:39Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 17800  skipped so far: 0)
+2026-03-14T16:49:49Z [INFO]   Batch 90 | lang=en | remaining=1970s
+2026-03-14T16:49:52Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 18000  skipped so far: 0)
+2026-03-14T16:49:59Z [INFO]   Batch 91 | lang=en | remaining=1959s
+2026-03-14T16:50:02Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 18200  skipped so far: 0)
+2026-03-14T16:50:11Z [INFO]   Batch 92 | lang=en | remaining=1947s
+2026-03-14T16:50:14Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 18400  skipped so far: 0)
+2026-03-14T16:50:28Z [INFO]   Batch 93 | lang=en | remaining=1931s
+2026-03-14T16:50:30Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 18600  skipped so far: 0)
+2026-03-14T16:50:39Z [INFO]   Batch 94 | lang=en | remaining=1919s
+2026-03-14T16:50:42Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 18800  skipped so far: 0)
+2026-03-14T16:50:55Z [INFO]   Batch 95 | lang=en | remaining=1903s
+2026-03-14T16:50:58Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 19000  skipped so far: 0)
+2026-03-14T16:51:06Z [INFO]   Batch 96 | lang=en | remaining=1892s
+2026-03-14T16:51:09Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 19200  skipped so far: 0)
+2026-03-14T16:51:20Z [INFO]   Batch 97 | lang=en | remaining=1879s
+2026-03-14T16:51:22Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 19400  skipped so far: 0)
+2026-03-14T16:51:34Z [INFO]   Batch 98 | lang=en | remaining=1865s
+2026-03-14T16:51:36Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 19600  skipped so far: 0)
+2026-03-14T16:51:44Z [INFO]   Batch 99 | lang=en | remaining=1855s
+2026-03-14T16:51:46Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 19800  skipped so far: 0)
+2026-03-14T16:51:55Z [INFO]   Batch 100 | lang=en | remaining=1844s
+2026-03-14T16:51:57Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 20000  skipped so far: 0)
+2026-03-14T16:52:08Z [INFO]   Batch 101 | lang=en | remaining=1831s
+2026-03-14T16:52:10Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 20200  skipped so far: 0)
+2026-03-14T16:52:18Z [INFO]   Batch 102 | lang=en | remaining=1821s
+2026-03-14T16:52:20Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 20400  skipped so far: 0)
+2026-03-14T16:52:27Z [INFO]   Batch 103 | lang=en | remaining=1811s
+2026-03-14T16:52:29Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 20600  skipped so far: 0)
+2026-03-14T16:52:41Z [INFO]   Batch 104 | lang=en | remaining=1797s
+2026-03-14T16:52:44Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 20800  skipped so far: 0)
+2026-03-14T16:52:50Z [INFO]   Batch 105 | lang=en | remaining=1789s
+2026-03-14T16:52:52Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 21000  skipped so far: 0)
+2026-03-14T16:52:58Z [INFO]   Batch 106 | lang=en | remaining=1781s
+2026-03-14T16:53:01Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 21200  skipped so far: 0)
+2026-03-14T16:53:12Z [INFO]   Batch 107 | lang=en | remaining=1767s
+2026-03-14T16:53:14Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 21400  skipped so far: 0)
+2026-03-14T16:53:28Z [INFO]   Batch 108 | lang=en | remaining=1750s
+2026-03-14T16:53:31Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 21600  skipped so far: 0)
+2026-03-14T16:53:39Z [INFO]   Batch 109 | lang=en | remaining=1740s
+2026-03-14T16:53:42Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 21800  skipped so far: 0)
+2026-03-14T16:53:47Z [INFO]   Batch 110 | lang=en | remaining=1732s
+2026-03-14T16:53:49Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 22000  skipped so far: 0)
+2026-03-14T16:53:57Z [INFO]   Batch 111 | lang=en | remaining=1722s
+2026-03-14T16:53:59Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 22200  skipped so far: 0)
+2026-03-14T16:54:05Z [INFO]   Batch 112 | lang=en | remaining=1714s
+2026-03-14T16:54:07Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 22400  skipped so far: 0)
+2026-03-14T16:54:15Z [INFO]   Batch 113 | lang=en | remaining=1704s
+2026-03-14T16:54:18Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 22600  skipped so far: 0)
+2026-03-14T16:54:24Z [INFO]   Batch 114 | lang=en | remaining=1695s
+2026-03-14T16:54:27Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 22800  skipped so far: 0)
+2026-03-14T16:54:40Z [INFO]   Batch 115 | lang=en | remaining=1679s
+2026-03-14T16:54:43Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 23000  skipped so far: 0)
+2026-03-14T16:54:55Z [INFO]   Batch 116 | lang=en | remaining=1664s
+2026-03-14T16:54:58Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 23200  skipped so far: 0)
+2026-03-14T16:55:11Z [INFO]   Batch 117 | lang=en | remaining=1647s
+2026-03-14T16:55:14Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 23400  skipped so far: 0)
+2026-03-14T16:55:23Z [INFO]   Batch 118 | lang=en | remaining=1636s
+2026-03-14T16:55:26Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 23600  skipped so far: 0)
+2026-03-14T16:55:32Z [INFO]   Batch 119 | lang=en | remaining=1627s
+2026-03-14T16:55:34Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 23800  skipped so far: 0)
+2026-03-14T16:55:44Z [INFO]   Batch 120 | lang=en | remaining=1614s
+2026-03-14T16:55:47Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 24000  skipped so far: 0)
+2026-03-14T16:55:58Z [INFO]   Batch 121 | lang=en | remaining=1601s
+2026-03-14T16:56:00Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 24200  skipped so far: 0)
+2026-03-14T16:56:14Z [INFO]   Batch 122 | lang=en | remaining=1584s
+2026-03-14T16:56:17Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 24400  skipped so far: 0)
+2026-03-14T16:56:25Z [INFO]   Batch 123 | lang=en | remaining=1573s
+2026-03-14T16:56:29Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 24600  skipped so far: 0)
+2026-03-14T16:56:40Z [INFO]   Batch 124 | lang=en | remaining=1559s
+2026-03-14T16:56:44Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 24800  skipped so far: 0)
+2026-03-14T16:56:53Z [INFO]   Batch 125 | lang=en | remaining=1545s
+2026-03-14T16:56:57Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 25000  skipped so far: 0)
+2026-03-14T16:57:12Z [INFO]   Batch 126 | lang=en | remaining=1527s
+2026-03-14T16:57:15Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 25200  skipped so far: 0)
+2026-03-14T16:57:30Z [INFO]   Batch 127 | lang=en | remaining=1509s
+2026-03-14T16:57:34Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 25400  skipped so far: 0)
+2026-03-14T16:57:43Z [INFO]   Batch 128 | lang=en | remaining=1496s
+2026-03-14T16:57:46Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 25600  skipped so far: 0)
+2026-03-14T16:57:58Z [INFO]   Batch 129 | lang=en | remaining=1481s
+2026-03-14T16:58:01Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 25800  skipped so far: 0)
+2026-03-14T16:58:15Z [INFO]   Batch 130 | lang=en | remaining=1464s
+2026-03-14T16:58:18Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 26000  skipped so far: 0)
+2026-03-14T16:58:29Z [INFO]   Batch 131 | lang=en | remaining=1450s
+2026-03-14T16:58:33Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 26200  skipped so far: 0)
+2026-03-14T16:58:38Z [INFO]   Batch 132 | lang=en | remaining=1440s
+2026-03-14T16:58:42Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 26400  skipped so far: 0)
+2026-03-14T16:58:55Z [INFO]   Batch 133 | lang=en | remaining=1424s
+2026-03-14T16:58:58Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 26600  skipped so far: 0)
+2026-03-14T16:59:05Z [INFO]   Batch 134 | lang=en | remaining=1414s
+2026-03-14T16:59:08Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 26800  skipped so far: 0)
+2026-03-14T16:59:16Z [INFO]   Batch 135 | lang=en | remaining=1402s
+2026-03-14T16:59:20Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 27000  skipped so far: 0)
+2026-03-14T16:59:35Z [INFO]   Batch 136 | lang=en | remaining=1384s
+2026-03-14T16:59:38Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 27200  skipped so far: 0)
+2026-03-14T16:59:48Z [INFO]   Batch 137 | lang=en | remaining=1370s
+2026-03-14T16:59:52Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 27400  skipped so far: 0)
+2026-03-14T17:00:03Z [INFO]   Batch 138 | lang=en | remaining=1356s
+2026-03-14T17:00:07Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 27600  skipped so far: 0)
+2026-03-14T17:00:22Z [INFO]   Batch 139 | lang=en | remaining=1337s
+2026-03-14T17:00:26Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 27800  skipped so far: 0)
+2026-03-14T17:00:32Z [INFO]   Batch 140 | lang=en | remaining=1327s
+2026-03-14T17:00:36Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 28000  skipped so far: 0)
+2026-03-14T17:00:49Z [INFO]   Batch 141 | lang=en | remaining=1310s
+2026-03-14T17:00:53Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 28200  skipped so far: 0)
+2026-03-14T17:01:03Z [INFO]   Batch 142 | lang=en | remaining=1296s
+2026-03-14T17:01:07Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 28400  skipped so far: 0)
+2026-03-14T17:01:22Z [INFO]   Batch 143 | lang=en | remaining=1277s
+2026-03-14T17:01:26Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 28600  skipped so far: 0)
+2026-03-14T17:01:33Z [INFO]   Batch 144 | lang=en | remaining=1266s
+2026-03-14T17:01:37Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 28800  skipped so far: 0)
+2026-03-14T17:01:50Z [INFO]   Batch 145 | lang=en | remaining=1249s
+2026-03-14T17:01:55Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 29000  skipped so far: 0)
+2026-03-14T17:02:06Z [INFO]   Batch 146 | lang=en | remaining=1232s
+2026-03-14T17:02:12Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 29200  skipped so far: 0)
+2026-03-14T17:02:17Z [INFO]   Batch 147 | lang=en | remaining=1222s
+2026-03-14T17:02:21Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 29400  skipped so far: 0)
+2026-03-14T17:02:32Z [INFO]   Batch 148 | lang=en | remaining=1207s
+2026-03-14T17:02:36Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 29600  skipped so far: 0)
+2026-03-14T17:02:48Z [INFO]   Batch 149 | lang=en | remaining=1191s
+2026-03-14T17:02:53Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 29800  skipped so far: 0)
+2026-03-14T17:03:04Z [INFO]   Batch 150 | lang=en | remaining=1175s
+2026-03-14T17:03:08Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 30000  skipped so far: 0)
+2026-03-14T17:03:19Z [INFO]   Batch 151 | lang=en | remaining=1159s
+2026-03-14T17:03:23Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 30200  skipped so far: 0)
+2026-03-14T17:03:36Z [INFO]   Batch 152 | lang=en | remaining=1143s
+2026-03-14T17:03:40Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 30400  skipped so far: 0)
+2026-03-14T17:03:49Z [INFO]   Batch 153 | lang=en | remaining=1130s
+2026-03-14T17:03:52Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 30600  skipped so far: 0)
+2026-03-14T17:03:58Z [INFO]   Batch 154 | lang=en | remaining=1120s
+2026-03-14T17:04:02Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 30800  skipped so far: 0)
+2026-03-14T17:04:11Z [INFO]   Batch 155 | lang=en | remaining=1107s
+2026-03-14T17:04:15Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 31000  skipped so far: 0)
+2026-03-14T17:04:27Z [INFO]   Batch 156 | lang=en | remaining=1092s
+2026-03-14T17:04:30Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 31200  skipped so far: 0)
+2026-03-14T17:04:38Z [INFO]   Batch 157 | lang=en | remaining=1080s
+2026-03-14T17:04:43Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 31400  skipped so far: 0)
+2026-03-14T17:04:48Z [INFO]   Batch 158 | lang=en | remaining=1070s
+2026-03-14T17:04:52Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 31600  skipped so far: 0)
+2026-03-14T17:05:05Z [INFO]   Batch 159 | lang=en | remaining=1054s
+2026-03-14T17:05:09Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 31800  skipped so far: 0)
+2026-03-14T17:05:16Z [INFO]   Batch 160 | lang=en | remaining=1043s
+2026-03-14T17:05:20Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 32000  skipped so far: 0)
+2026-03-14T17:05:27Z [INFO]   Batch 161 | lang=en | remaining=1032s
+2026-03-14T17:05:31Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 32200  skipped so far: 0)
+2026-03-14T17:05:44Z [INFO]   Batch 162 | lang=en | remaining=1015s
+2026-03-14T17:05:48Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 32400  skipped so far: 0)
+2026-03-14T17:05:57Z [INFO]   Batch 163 | lang=en | remaining=1002s
+2026-03-14T17:06:01Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 32600  skipped so far: 0)
+2026-03-14T17:06:07Z [INFO]   Batch 164 | lang=en | remaining=992s
+2026-03-14T17:06:11Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 32800  skipped so far: 0)
+2026-03-14T17:06:20Z [INFO]   Batch 165 | lang=en | remaining=979s
+2026-03-14T17:06:24Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 33000  skipped so far: 0)
+2026-03-14T17:06:30Z [INFO]   Batch 166 | lang=en | remaining=969s
+2026-03-14T17:06:34Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 33200  skipped so far: 0)
+2026-03-14T17:06:45Z [INFO]   Batch 167 | lang=en | remaining=953s
+2026-03-14T17:06:49Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 33400  skipped so far: 0)
+2026-03-14T17:06:55Z [INFO]   Batch 168 | lang=en | remaining=944s
+2026-03-14T17:06:59Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 33600  skipped so far: 0)
+2026-03-14T17:07:07Z [INFO]   Batch 169 | lang=en | remaining=932s
+2026-03-14T17:07:11Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 33800  skipped so far: 0)
+2026-03-14T17:07:25Z [INFO]   Batch 170 | lang=en | remaining=913s
+2026-03-14T17:07:29Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 34000  skipped so far: 0)
+2026-03-14T17:07:41Z [INFO]   Batch 171 | lang=en | remaining=898s
+2026-03-14T17:07:45Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 34200  skipped so far: 0)
+2026-03-14T17:07:55Z [INFO]   Batch 172 | lang=en | remaining=884s
+2026-03-14T17:07:59Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 34400  skipped so far: 0)
+2026-03-14T17:08:06Z [INFO]   Batch 173 | lang=en | remaining=872s
+2026-03-14T17:08:11Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 34600  skipped so far: 0)
+2026-03-14T17:08:24Z [INFO]   Batch 174 | lang=en | remaining=855s
+2026-03-14T17:08:28Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 34800  skipped so far: 0)
+2026-03-14T17:08:39Z [INFO]   Batch 175 | lang=en | remaining=839s
+2026-03-14T17:08:43Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 35000  skipped so far: 0)
+2026-03-14T17:08:56Z [INFO]   Batch 176 | lang=en | remaining=822s
+2026-03-14T17:09:00Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 35200  skipped so far: 0)
+2026-03-14T17:09:15Z [INFO]   Batch 177 | lang=en | remaining=804s
+2026-03-14T17:09:19Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 35400  skipped so far: 0)
+2026-03-14T17:09:26Z [INFO]   Batch 178 | lang=en | remaining=792s
+2026-03-14T17:09:31Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 35600  skipped so far: 0)
+2026-03-14T17:09:39Z [INFO]   Batch 179 | lang=en | remaining=779s
+2026-03-14T17:09:44Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 35800  skipped so far: 0)
+2026-03-14T17:09:55Z [INFO]   Batch 180 | lang=en | remaining=763s
+2026-03-14T17:10:00Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 36000  skipped so far: 0)
+2026-03-14T17:10:10Z [INFO]   Batch 181 | lang=en | remaining=749s
+2026-03-14T17:10:14Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 36200  skipped so far: 0)
+2026-03-14T17:10:19Z [INFO]   Batch 182 | lang=en | remaining=740s
+2026-03-14T17:10:23Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 36400  skipped so far: 0)
+2026-03-14T17:10:35Z [INFO]   Batch 183 | lang=en | remaining=724s
+2026-03-14T17:10:39Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 36600  skipped so far: 0)
+2026-03-14T17:10:52Z [INFO]   Batch 184 | lang=en | remaining=706s
+2026-03-14T17:10:57Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 36800  skipped so far: 0)
+2026-03-14T17:11:07Z [INFO]   Batch 185 | lang=en | remaining=691s
+2026-03-14T17:11:12Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 37000  skipped so far: 0)
+2026-03-14T17:11:17Z [INFO]   Batch 186 | lang=en | remaining=681s
+2026-03-14T17:11:22Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 37200  skipped so far: 0)
+2026-03-14T17:11:31Z [INFO]   Batch 187 | lang=en | remaining=668s
+2026-03-14T17:11:36Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 37400  skipped so far: 0)
+2026-03-14T17:11:49Z [INFO]   Batch 188 | lang=en | remaining=649s
+2026-03-14T17:11:54Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 37600  skipped so far: 0)
+2026-03-14T17:12:04Z [INFO]   Batch 189 | lang=en | remaining=635s
+2026-03-14T17:12:08Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 37800  skipped so far: 0)
+2026-03-14T17:12:19Z [INFO]   Batch 190 | lang=en | remaining=620s
+2026-03-14T17:12:23Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 38000  skipped so far: 0)
+2026-03-14T17:12:29Z [INFO]   Batch 191 | lang=en | remaining=610s
+2026-03-14T17:12:33Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 38200  skipped so far: 0)
+2026-03-14T17:12:39Z [INFO]   Batch 192 | lang=en | remaining=599s
+2026-03-14T17:12:44Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 38400  skipped so far: 0)
+2026-03-14T17:12:49Z [INFO]   Batch 193 | lang=en | remaining=590s
+2026-03-14T17:12:54Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 38600  skipped so far: 0)
+2026-03-14T17:13:01Z [INFO]   Batch 194 | lang=en | remaining=578s
+2026-03-14T17:13:06Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 38800  skipped so far: 0)
+2026-03-14T17:13:16Z [INFO]   Batch 195 | lang=en | remaining=563s
+2026-03-14T17:13:21Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 39000  skipped so far: 0)
+2026-03-14T17:13:29Z [INFO]   Batch 196 | lang=en | remaining=550s
+2026-03-14T17:13:33Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 39200  skipped so far: 0)
+2026-03-14T17:13:40Z [INFO]   Batch 197 | lang=en | remaining=539s
+2026-03-14T17:13:45Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 39400  skipped so far: 0)
+2026-03-14T17:13:54Z [INFO]   Batch 198 | lang=en | remaining=524s
+2026-03-14T17:13:59Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 39600  skipped so far: 0)
+2026-03-14T17:14:11Z [INFO]   Batch 199 | lang=en | remaining=507s
+2026-03-14T17:14:16Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 39800  skipped so far: 0)
+2026-03-14T17:14:23Z [INFO]   Batch 200 | lang=en | remaining=495s
+2026-03-14T17:14:29Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 40000  skipped so far: 0)
+2026-03-14T17:14:37Z [INFO]   Batch 201 | lang=en | remaining=481s
+2026-03-14T17:14:42Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 40200  skipped so far: 0)
+2026-03-14T17:14:57Z [INFO]   Batch 202 | lang=en | remaining=462s
+2026-03-14T17:15:02Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 40400  skipped so far: 0)
+2026-03-14T17:15:08Z [INFO]   Batch 203 | lang=en | remaining=451s
+2026-03-14T17:15:13Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 40600  skipped so far: 0)
+2026-03-14T17:15:21Z [INFO]   Batch 204 | lang=en | remaining=438s
+2026-03-14T17:15:25Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 40800  skipped so far: 0)
+2026-03-14T17:15:31Z [INFO]   Batch 205 | lang=en | remaining=428s
+2026-03-14T17:15:36Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 41000  skipped so far: 0)
+2026-03-14T17:15:51Z [INFO]   Batch 206 | lang=en | remaining=408s
+2026-03-14T17:15:55Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 41200  skipped so far: 0)
+2026-03-14T17:16:10Z [INFO]   Batch 207 | lang=en | remaining=389s
+2026-03-14T17:16:14Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 41400  skipped so far: 0)
+2026-03-14T17:16:26Z [INFO]   Batch 208 | lang=en | remaining=373s
+2026-03-14T17:16:30Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 41600  skipped so far: 0)
+2026-03-14T17:16:35Z [INFO]   Batch 209 | lang=en | remaining=363s
+2026-03-14T17:16:40Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 41800  skipped so far: 0)
+2026-03-14T17:16:46Z [INFO]   Batch 210 | lang=en | remaining=353s
+2026-03-14T17:16:50Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 42000  skipped so far: 0)
+2026-03-14T17:16:57Z [INFO]   Batch 211 | lang=en | remaining=342s
+2026-03-14T17:17:01Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 42200  skipped so far: 0)
+2026-03-14T17:17:07Z [INFO]   Batch 212 | lang=en | remaining=332s
+2026-03-14T17:17:12Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 42400  skipped so far: 0)
+2026-03-14T17:17:25Z [INFO]   Batch 213 | lang=en | remaining=314s
+2026-03-14T17:17:30Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 42600  skipped so far: 0)
+2026-03-14T17:17:38Z [INFO]   Batch 214 | lang=en | remaining=300s
+2026-03-14T17:17:43Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 42800  skipped so far: 0)
+2026-03-14T17:17:51Z [INFO]   Batch 215 | lang=en | remaining=288s
+2026-03-14T17:17:56Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 43000  skipped so far: 0)
+2026-03-14T17:18:08Z [INFO]   Batch 216 | lang=en | remaining=271s
+2026-03-14T17:18:13Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 43200  skipped so far: 0)
+2026-03-14T17:18:22Z [INFO]   Batch 217 | lang=en | remaining=257s
+2026-03-14T17:18:27Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 43400  skipped so far: 0)
+2026-03-14T17:18:34Z [INFO]   Batch 218 | lang=en | remaining=245s
+2026-03-14T17:18:39Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 43600  skipped so far: 0)
+2026-03-14T17:18:53Z [INFO]   Batch 219 | lang=en | remaining=225s
+2026-03-14T17:18:59Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 43800  skipped so far: 0)
+2026-03-14T17:19:04Z [INFO]   Batch 220 | lang=en | remaining=214s
+2026-03-14T17:19:10Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 44000  skipped so far: 0)
+2026-03-14T17:19:22Z [INFO]   Batch 221 | lang=en | remaining=196s
+2026-03-14T17:19:27Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 44200  skipped so far: 0)
+2026-03-14T17:19:38Z [INFO]   Batch 222 | lang=en | remaining=181s
+2026-03-14T17:19:43Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 44400  skipped so far: 0)
+2026-03-14T17:19:54Z [INFO]   Batch 223 | lang=en | remaining=164s
+2026-03-14T17:20:00Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 44600  skipped so far: 0)
+2026-03-14T17:20:07Z [INFO]   Batch 224 | lang=en | remaining=152s
+2026-03-14T17:20:12Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 44800  skipped so far: 0)
+2026-03-14T17:20:17Z [INFO]   Batch 225 | lang=en | remaining=142s
+2026-03-14T17:20:23Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 45000  skipped so far: 0)
+2026-03-14T17:20:32Z [INFO]   Batch 226 | lang=en | remaining=126s
+2026-03-14T17:20:38Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 45200  skipped so far: 0)
+2026-03-14T17:20:47Z [INFO]   Batch 227 | lang=en | remaining=112s
+2026-03-14T17:20:52Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 45400  skipped so far: 0)
+2026-03-14T17:21:05Z [INFO]   Batch 228 | lang=en | remaining=94s
+2026-03-14T17:21:10Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 45600  skipped so far: 0)
+2026-03-14T17:21:18Z [INFO]   Batch 229 | lang=en | remaining=81s
+2026-03-14T17:21:23Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 45800  skipped so far: 0)
+2026-03-14T17:21:36Z [INFO]   Batch 230 | lang=en | remaining=62s
+2026-03-14T17:21:41Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 46000  skipped so far: 0)
+2026-03-14T17:21:47Z [INFO]   Batch 231 | lang=en | remaining=52s
+2026-03-14T17:21:52Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 46200  skipped so far: 0)
+2026-03-14T17:22:06Z [INFO]   Batch 232 | lang=en | remaining=33s
+2026-03-14T17:22:12Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 46400  skipped so far: 0)
+2026-03-14T17:22:12Z [INFO] Stopping: shutdown or timeout reached.
+2026-03-14T17:22:12Z [INFO] Run complete — new=46400  total_ids=46400  skipped=0  duration=2973s
