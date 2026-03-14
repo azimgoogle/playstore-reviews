@@ -1,0 +1,26 @@
+2026-03-14T09:42:57Z [INFO] Scraper initialising — app=com.google.android.apps.kids.familylink  max_minutes=50
+2026-03-14T09:42:57Z [INFO] ==================== Run started ====================
+2026-03-14T09:42:57Z [INFO] sort=MOST_RELEVANT  max_minutes=50  existing_ids=0  state_total_fetched=0
+2026-03-14T09:42:57Z [INFO] ── Language 1/6: lang=en  country=us  sort=MOST_RELEVANT  token=start
+2026-03-14T09:42:57Z [INFO]   Batch 1 | lang=en | remaining=3000s
+2026-03-14T09:42:59Z [INFO]     +200 new rows written  (run total new: 200  skipped so far: 0)
+2026-03-14T09:43:07Z [INFO]   Batch 2 | lang=en | remaining=2990s
+2026-03-14T09:43:08Z [INFO]     +200 new rows written  (run total new: 400  skipped so far: 0)
+2026-03-14T09:43:22Z [INFO]   Batch 3 | lang=en | remaining=2976s
+2026-03-14T09:43:23Z [INFO]     +200 new rows written  (run total new: 600  skipped so far: 0)
+2026-03-14T09:43:28Z [INFO]   Batch 4 | lang=en | remaining=2969s
+2026-03-14T09:43:29Z [INFO]     +200 new rows written  (run total new: 800  skipped so far: 0)
+2026-03-14T09:43:35Z [INFO]   Batch 5 | lang=en | remaining=2962s
+2026-03-14T09:43:36Z [INFO]     +200 new rows written  (run total new: 1000  skipped so far: 0)
+2026-03-14T09:43:50Z [INFO]   Batch 6 | lang=en | remaining=2947s
+2026-03-14T09:43:51Z [INFO]     +200 new rows written  (run total new: 1200  skipped so far: 0)
+2026-03-14T09:43:59Z [INFO]   Batch 7 | lang=en | remaining=2939s
+2026-03-14T09:43:59Z [INFO]     +200 new rows written  (run total new: 1400  skipped so far: 0)
+2026-03-14T09:44:05Z [INFO]   Batch 8 | lang=en | remaining=2932s
+2026-03-14T09:44:06Z [INFO]     +200 new rows written  (run total new: 1600  skipped so far: 0)
+2026-03-14T09:44:18Z [INFO]   Batch 9 | lang=en | remaining=2919s
+2026-03-14T09:44:19Z [INFO]     +200 new rows written  (run total new: 1800  skipped so far: 0)
+2026-03-14T09:44:25Z [INFO]   Batch 10 | lang=en | remaining=2913s
+2026-03-14T09:44:25Z [INFO]     +200 new rows written  (run total new: 2000  skipped so far: 0)
+2026-03-14T09:44:32Z [INFO]   Batch 11 | lang=en | remaining=2905s
+2026-03-14T09:44:33Z [INFO]     +200 new rows written  (run total new: 2200  skipped so far: 0)
