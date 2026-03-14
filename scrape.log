@@ -1,0 +1,36 @@
+2026-03-14T09:47:06Z [INFO] Scraper initialising — app=com.google.android.apps.kids.familylink  max_minutes=1
+2026-03-14T09:47:06Z [INFO] ==================== Run started ====================
+2026-03-14T09:47:06Z [INFO] sort=MOST_RELEVANT  max_minutes=1  existing_ids=0  state_total_fetched=0
+2026-03-14T09:47:06Z [INFO] ── Language 1/2: lang=en  country=us  sort=MOST_RELEVANT  token=start
+2026-03-14T09:47:06Z [INFO]   Batch 1 | lang=en | remaining=60s
+2026-03-14T09:47:07Z [INFO]     +200 new rows written  (run total new: 200  skipped so far: 0)
+2026-03-14T09:47:10Z [INFO]   Batch 2 | lang=en | remaining=56s
+2026-03-14T09:47:11Z [INFO]     +200 new rows written  (run total new: 400  skipped so far: 0)
+2026-03-14T09:47:14Z [INFO]   Batch 3 | lang=en | remaining=52s
+2026-03-14T09:47:15Z [INFO]     +200 new rows written  (run total new: 600  skipped so far: 0)
+2026-03-14T09:47:17Z [INFO]   Batch 4 | lang=en | remaining=48s
+2026-03-14T09:47:18Z [INFO]     +200 new rows written  (run total new: 800  skipped so far: 0)
+2026-03-14T09:47:21Z [INFO]   Batch 5 | lang=en | remaining=45s
+2026-03-14T09:47:21Z [INFO]     +200 new rows written  (run total new: 1000  skipped so far: 0)
+2026-03-14T09:47:24Z [INFO]   Batch 6 | lang=en | remaining=41s
+2026-03-14T09:47:25Z [INFO]     +200 new rows written  (run total new: 1200  skipped so far: 0)
+2026-03-14T09:47:29Z [INFO]   Batch 7 | lang=en | remaining=37s
+2026-03-14T09:47:29Z [INFO]     +200 new rows written  (run total new: 1400  skipped so far: 0)
+2026-03-14T09:47:32Z [INFO]   Batch 8 | lang=en | remaining=34s
+2026-03-14T09:47:33Z [INFO]     +200 new rows written  (run total new: 1600  skipped so far: 0)
+2026-03-14T09:47:35Z [INFO]   Batch 9 | lang=en | remaining=31s
+2026-03-14T09:47:36Z [INFO]     +200 new rows written  (run total new: 1800  skipped so far: 0)
+2026-03-14T09:47:39Z [INFO]   Batch 10 | lang=en | remaining=27s
+2026-03-14T09:47:40Z [INFO]     +200 new rows written  (run total new: 2000  skipped so far: 0)
+2026-03-14T09:47:42Z [INFO]   Batch 11 | lang=en | remaining=24s
+2026-03-14T09:47:43Z [INFO]     +200 new rows written  (run total new: 2200  skipped so far: 0)
+2026-03-14T09:47:47Z [INFO]   Batch 12 | lang=en | remaining=19s
+2026-03-14T09:47:48Z [INFO]     +200 new rows written  (run total new: 2400  skipped so far: 0)
+2026-03-14T09:47:50Z [INFO]   Batch 13 | lang=en | remaining=16s
+2026-03-14T09:47:51Z [INFO]     +200 new rows written  (run total new: 2600  skipped so far: 0)
+2026-03-14T09:47:54Z [INFO]   Batch 14 | lang=en | remaining=12s
+2026-03-14T09:47:55Z [INFO]     +200 new rows written  (run total new: 2800  skipped so far: 0)
+2026-03-14T09:47:58Z [INFO]   Batch 15 | lang=en | remaining=8s
+2026-03-14T09:47:58Z [INFO]     +200 new rows written  (run total new: 3000  skipped so far: 0)
+2026-03-14T09:48:01Z [INFO] Stopping: shutdown or timeout reached.
+2026-03-14T09:48:01Z [INFO] Run complete — new=3000  total=3000  skipped=0  duration=55s
