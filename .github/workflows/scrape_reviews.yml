@@ -44,7 +44,7 @@ jobs:
 
       # ── 5. Run scraper ────────────────────────────────────────────────────────
       - name: Run scraper
-        run: python scraper.py --max-minutes 50
+        run: python scraper.py --max-minutes 1
 
       # ── 6. Commit & push data back to repo ───────────────────────────────────
       #

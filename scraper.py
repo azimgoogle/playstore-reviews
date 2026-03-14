@@ -62,7 +62,7 @@ STATE_FILE = "state.json"
 LOG_FILE = "scrape.log"
 
 BATCH_SIZE = 200
-LANGUAGES = ["en", "bn", "ar", "tr", "id", "ms"]  # en first (highest priority)
+LANGUAGES = ["en", "bn"]  # TEST: en + bn only
 
 # Best-effort country mapping for each language
 LANG_COUNTRY: dict[str, str] = {
@@ -89,11 +89,11 @@ CSV_COLUMNS = [
     "fetched_at",
 ]
 
-# Delays (seconds)
-DELAY_BATCH_MIN = 5
-DELAY_BATCH_MAX = 15
-DELAY_LANG_MIN = 30
-DELAY_LANG_MAX = 60
+# Delays (seconds) — reduced for test run
+DELAY_BATCH_MIN = 2
+DELAY_BATCH_MAX = 4
+DELAY_LANG_MIN = 5
+DELAY_LANG_MAX = 8
 
 # Retry / backoff
 BACKOFF_INITIAL = 60
@@ -104,7 +104,7 @@ MAX_RETRIES = 3
 LOG_MAX_BYTES = 5 * 1024 * 1024  # 5 MB
 
 # Reserve this many seconds at end of run for cleanup / state save
-TIMEOUT_BUFFER = 30
+TIMEOUT_BUFFER = 5  # TEST: tight buffer for 1-min run
 
 
 # ── Token serialization ───────────────────────────────────────────────────────
