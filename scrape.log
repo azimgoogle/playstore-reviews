@@ -1714,3 +1714,272 @@
 2026-03-15T03:59:18Z [INFO]   Batch 235 | lang=en | remaining=45s
 2026-03-15T03:59:34Z [INFO] Stopping: shutdown or timeout reached.
 2026-03-15T03:59:34Z [INFO] Run complete — new=0  total_ids=48400  skipped=47000  duration=2970s
+2026-03-15T04:51:08Z [INFO] Scraper initialising — app=com.google.android.apps.kids.familylink  max_minutes=50
+2026-03-15T04:51:09Z [INFO] ==================== Run started ====================
+2026-03-15T04:51:09Z [INFO] sort=MOST_RELEVANT  max_minutes=50  existing_ids=48400  state_total_fetched=48400
+2026-03-15T04:51:09Z [INFO] ── Language 1/6: lang=en  country=us  sort=MOST_RELEVANT  file=data/reviews_en.csv  token=start
+2026-03-15T04:51:09Z [INFO]   Batch 1 | lang=en | remaining=3000s
+2026-03-15T04:51:16Z [INFO]   Batch 2 | lang=en | remaining=2992s
+2026-03-15T04:51:24Z [INFO]   Batch 3 | lang=en | remaining=2984s
+2026-03-15T04:51:32Z [INFO]   Batch 4 | lang=en | remaining=2976s
+2026-03-15T04:51:40Z [INFO]   Batch 5 | lang=en | remaining=2968s
+2026-03-15T04:51:55Z [INFO]   Batch 6 | lang=en | remaining=2953s
+2026-03-15T04:52:08Z [INFO]   Batch 7 | lang=en | remaining=2940s
+2026-03-15T04:52:20Z [INFO]   Batch 8 | lang=en | remaining=2928s
+2026-03-15T04:52:35Z [INFO]   Batch 9 | lang=en | remaining=2913s
+2026-03-15T04:52:36Z [INFO]     +3 new rows → data/reviews_en.csv  (run total new: 3  skipped so far: 1797)
+2026-03-15T04:52:48Z [INFO]   Batch 10 | lang=en | remaining=2900s
+2026-03-15T04:52:57Z [INFO]   Batch 11 | lang=en | remaining=2891s
+2026-03-15T04:53:12Z [INFO]   Batch 12 | lang=en | remaining=2877s
+2026-03-15T04:53:21Z [INFO]   Batch 13 | lang=en | remaining=2867s
+2026-03-15T04:53:37Z [INFO]   Batch 14 | lang=en | remaining=2851s
+2026-03-15T04:53:43Z [INFO]   Batch 15 | lang=en | remaining=2845s
+2026-03-15T04:53:56Z [INFO]   Batch 16 | lang=en | remaining=2832s
+2026-03-15T04:54:10Z [INFO]   Batch 17 | lang=en | remaining=2818s
+2026-03-15T04:54:21Z [INFO]   Batch 18 | lang=en | remaining=2807s
+2026-03-15T04:54:31Z [INFO]   Batch 19 | lang=en | remaining=2797s
+2026-03-15T04:54:46Z [INFO]   Batch 20 | lang=en | remaining=2782s
+2026-03-15T04:55:02Z [INFO]   Batch 21 | lang=en | remaining=2766s
+2026-03-15T04:55:18Z [INFO]   Batch 22 | lang=en | remaining=2751s
+2026-03-15T04:55:26Z [INFO]   Batch 23 | lang=en | remaining=2743s
+2026-03-15T04:55:37Z [INFO]   Batch 24 | lang=en | remaining=2731s
+2026-03-15T04:55:48Z [INFO]   Batch 25 | lang=en | remaining=2720s
+2026-03-15T04:55:59Z [INFO]   Batch 26 | lang=en | remaining=2709s
+2026-03-15T04:56:05Z [INFO]   Batch 27 | lang=en | remaining=2703s
+2026-03-15T04:56:12Z [INFO]   Batch 28 | lang=en | remaining=2697s
+2026-03-15T04:56:25Z [INFO]   Batch 29 | lang=en | remaining=2683s
+2026-03-15T04:56:37Z [INFO]   Batch 30 | lang=en | remaining=2671s
+2026-03-15T04:56:49Z [INFO]   Batch 31 | lang=en | remaining=2659s
+2026-03-15T04:56:56Z [INFO]   Batch 32 | lang=en | remaining=2652s
+2026-03-15T04:57:11Z [INFO]   Batch 33 | lang=en | remaining=2638s
+2026-03-15T04:57:20Z [INFO]   Batch 34 | lang=en | remaining=2629s
+2026-03-15T04:57:27Z [INFO]   Batch 35 | lang=en | remaining=2621s
+2026-03-15T04:57:39Z [INFO]   Batch 36 | lang=en | remaining=2610s
+2026-03-15T04:57:48Z [INFO]   Batch 37 | lang=en | remaining=2601s
+2026-03-15T04:58:03Z [INFO]   Batch 38 | lang=en | remaining=2586s
+2026-03-15T04:58:17Z [INFO]   Batch 39 | lang=en | remaining=2571s
+2026-03-15T04:58:24Z [INFO]   Batch 40 | lang=en | remaining=2564s
+2026-03-15T04:58:37Z [INFO]   Batch 41 | lang=en | remaining=2551s
+2026-03-15T04:58:45Z [INFO]   Batch 42 | lang=en | remaining=2543s
+2026-03-15T04:58:52Z [INFO]   Batch 43 | lang=en | remaining=2536s
+2026-03-15T04:59:00Z [INFO]   Batch 44 | lang=en | remaining=2528s
+2026-03-15T04:59:06Z [INFO]   Batch 45 | lang=en | remaining=2522s
+2026-03-15T04:59:18Z [INFO]   Batch 46 | lang=en | remaining=2510s
+2026-03-15T04:59:27Z [INFO]   Batch 47 | lang=en | remaining=2501s
+2026-03-15T04:59:36Z [INFO]   Batch 48 | lang=en | remaining=2492s
+2026-03-15T04:59:51Z [INFO]   Batch 49 | lang=en | remaining=2478s
+2026-03-15T04:59:58Z [INFO]   Batch 50 | lang=en | remaining=2470s
+2026-03-15T05:00:08Z [INFO]   Batch 51 | lang=en | remaining=2461s
+2026-03-15T05:00:22Z [INFO]   Batch 52 | lang=en | remaining=2446s
+2026-03-15T05:00:31Z [INFO]   Batch 53 | lang=en | remaining=2438s
+2026-03-15T05:00:40Z [INFO]   Batch 54 | lang=en | remaining=2429s
+2026-03-15T05:00:54Z [INFO]   Batch 55 | lang=en | remaining=2414s
+2026-03-15T05:01:05Z [INFO]   Batch 56 | lang=en | remaining=2403s
+2026-03-15T05:01:16Z [INFO]   Batch 57 | lang=en | remaining=2392s
+2026-03-15T05:01:23Z [INFO]   Batch 58 | lang=en | remaining=2386s
+2026-03-15T05:01:37Z [INFO]   Batch 59 | lang=en | remaining=2371s
+2026-03-15T05:01:50Z [INFO]   Batch 60 | lang=en | remaining=2359s
+2026-03-15T05:01:57Z [INFO]   Batch 61 | lang=en | remaining=2352s
+2026-03-15T05:02:06Z [INFO]   Batch 62 | lang=en | remaining=2343s
+2026-03-15T05:02:21Z [INFO]   Batch 63 | lang=en | remaining=2328s
+2026-03-15T05:02:35Z [INFO]   Batch 64 | lang=en | remaining=2313s
+2026-03-15T05:02:36Z [INFO]     +1 new rows → data/reviews_en.csv  (run total new: 4  skipped so far: 12796)
+2026-03-15T05:02:48Z [INFO]   Batch 65 | lang=en | remaining=2301s
+2026-03-15T05:02:49Z [INFO]     +1 new rows → data/reviews_en.csv  (run total new: 5  skipped so far: 12995)
+2026-03-15T05:02:55Z [INFO]   Batch 66 | lang=en | remaining=2294s
+2026-03-15T05:02:56Z [INFO]     +3 new rows → data/reviews_en.csv  (run total new: 8  skipped so far: 13192)
+2026-03-15T05:03:07Z [INFO]   Batch 67 | lang=en | remaining=2281s
+2026-03-15T05:03:08Z [INFO]     +2 new rows → data/reviews_en.csv  (run total new: 10  skipped so far: 13390)
+2026-03-15T05:03:19Z [INFO]   Batch 68 | lang=en | remaining=2269s
+2026-03-15T05:03:21Z [INFO]     +1 new rows → data/reviews_en.csv  (run total new: 11  skipped so far: 13589)
+2026-03-15T05:03:32Z [INFO]   Batch 69 | lang=en | remaining=2256s
+2026-03-15T05:03:42Z [INFO]   Batch 70 | lang=en | remaining=2246s
+2026-03-15T05:03:49Z [INFO]   Batch 71 | lang=en | remaining=2240s
+2026-03-15T05:04:00Z [INFO]   Batch 72 | lang=en | remaining=2229s
+2026-03-15T05:04:02Z [INFO]     +1 new rows → data/reviews_en.csv  (run total new: 12  skipped so far: 14388)
+2026-03-15T05:04:16Z [INFO]   Batch 73 | lang=en | remaining=2212s
+2026-03-15T05:04:18Z [INFO]     +4 new rows → data/reviews_en.csv  (run total new: 16  skipped so far: 14584)
+2026-03-15T05:04:27Z [INFO]   Batch 74 | lang=en | remaining=2201s
+2026-03-15T05:04:29Z [INFO]     +4 new rows → data/reviews_en.csv  (run total new: 20  skipped so far: 14780)
+2026-03-15T05:04:44Z [INFO]   Batch 75 | lang=en | remaining=2184s
+2026-03-15T05:04:46Z [INFO]     +2 new rows → data/reviews_en.csv  (run total new: 22  skipped so far: 14978)
+2026-03-15T05:04:54Z [INFO]   Batch 76 | lang=en | remaining=2175s
+2026-03-15T05:05:03Z [INFO]   Batch 77 | lang=en | remaining=2165s
+2026-03-15T05:05:15Z [INFO]   Batch 78 | lang=en | remaining=2153s
+2026-03-15T05:05:25Z [INFO]   Batch 79 | lang=en | remaining=2143s
+2026-03-15T05:05:34Z [INFO]   Batch 80 | lang=en | remaining=2134s
+2026-03-15T05:05:43Z [INFO]   Batch 81 | lang=en | remaining=2125s
+2026-03-15T05:05:56Z [INFO]   Batch 82 | lang=en | remaining=2112s
+2026-03-15T05:06:08Z [INFO]   Batch 83 | lang=en | remaining=2100s
+2026-03-15T05:06:16Z [INFO]   Batch 84 | lang=en | remaining=2093s
+2026-03-15T05:06:31Z [INFO]   Batch 85 | lang=en | remaining=2077s
+2026-03-15T05:06:40Z [INFO]   Batch 86 | lang=en | remaining=2068s
+2026-03-15T05:06:51Z [INFO]   Batch 87 | lang=en | remaining=2057s
+2026-03-15T05:07:01Z [INFO]   Batch 88 | lang=en | remaining=2048s
+2026-03-15T05:07:16Z [INFO]   Batch 89 | lang=en | remaining=2032s
+2026-03-15T05:07:30Z [INFO]   Batch 90 | lang=en | remaining=2019s
+2026-03-15T05:07:45Z [INFO]   Batch 91 | lang=en | remaining=2003s
+2026-03-15T05:08:01Z [INFO]   Batch 92 | lang=en | remaining=1988s
+2026-03-15T05:08:17Z [INFO]   Batch 93 | lang=en | remaining=1971s
+2026-03-15T05:08:33Z [INFO]   Batch 94 | lang=en | remaining=1955s
+2026-03-15T05:08:49Z [INFO]   Batch 95 | lang=en | remaining=1939s
+2026-03-15T05:09:04Z [INFO]   Batch 96 | lang=en | remaining=1924s
+2026-03-15T05:09:15Z [INFO]   Batch 97 | lang=en | remaining=1913s
+2026-03-15T05:09:25Z [INFO]   Batch 98 | lang=en | remaining=1904s
+2026-03-15T05:09:33Z [INFO]   Batch 99 | lang=en | remaining=1895s
+2026-03-15T05:09:43Z [INFO]   Batch 100 | lang=en | remaining=1886s
+2026-03-15T05:09:53Z [INFO]   Batch 101 | lang=en | remaining=1876s
+2026-03-15T05:10:09Z [INFO]   Batch 102 | lang=en | remaining=1859s
+2026-03-15T05:10:26Z [INFO]   Batch 103 | lang=en | remaining=1842s
+2026-03-15T05:10:34Z [INFO]   Batch 104 | lang=en | remaining=1834s
+2026-03-15T05:10:44Z [INFO]   Batch 105 | lang=en | remaining=1825s
+2026-03-15T05:10:51Z [INFO]   Batch 106 | lang=en | remaining=1817s
+2026-03-15T05:11:02Z [INFO]   Batch 107 | lang=en | remaining=1806s
+2026-03-15T05:11:12Z [INFO]   Batch 108 | lang=en | remaining=1796s
+2026-03-15T05:11:21Z [INFO]   Batch 109 | lang=en | remaining=1787s
+2026-03-15T05:11:31Z [INFO]   Batch 110 | lang=en | remaining=1777s
+2026-03-15T05:11:43Z [INFO]   Batch 111 | lang=en | remaining=1766s
+2026-03-15T05:11:57Z [INFO]   Batch 112 | lang=en | remaining=1752s
+2026-03-15T05:12:08Z [INFO]   Batch 113 | lang=en | remaining=1741s
+2026-03-15T05:12:24Z [INFO]   Batch 114 | lang=en | remaining=1724s
+2026-03-15T05:12:34Z [INFO]   Batch 115 | lang=en | remaining=1714s
+2026-03-15T05:12:42Z [INFO]   Batch 116 | lang=en | remaining=1707s
+2026-03-15T05:12:57Z [INFO]   Batch 117 | lang=en | remaining=1692s
+2026-03-15T05:13:04Z [INFO]   Batch 118 | lang=en | remaining=1684s
+2026-03-15T05:13:12Z [INFO]   Batch 119 | lang=en | remaining=1676s
+2026-03-15T05:13:22Z [INFO]   Batch 120 | lang=en | remaining=1666s
+2026-03-15T05:13:31Z [INFO]   Batch 121 | lang=en | remaining=1658s
+2026-03-15T05:13:40Z [INFO]   Batch 122 | lang=en | remaining=1648s
+2026-03-15T05:13:56Z [INFO]   Batch 123 | lang=en | remaining=1632s
+2026-03-15T05:14:10Z [INFO]   Batch 124 | lang=en | remaining=1619s
+2026-03-15T05:14:24Z [INFO]   Batch 125 | lang=en | remaining=1604s
+2026-03-15T05:14:38Z [INFO]   Batch 126 | lang=en | remaining=1590s
+2026-03-15T05:14:53Z [INFO]   Batch 127 | lang=en | remaining=1575s
+2026-03-15T05:15:08Z [INFO]   Batch 128 | lang=en | remaining=1561s
+2026-03-15T05:15:10Z [INFO]     +1 new rows → data/reviews_en.csv  (run total new: 23  skipped so far: 25577)
+2026-03-15T05:15:21Z [INFO]   Batch 129 | lang=en | remaining=1547s
+2026-03-15T05:15:30Z [INFO]   Batch 130 | lang=en | remaining=1538s
+2026-03-15T05:15:33Z [INFO]     +1 new rows → data/reviews_en.csv  (run total new: 24  skipped so far: 25976)
+2026-03-15T05:15:45Z [INFO]   Batch 131 | lang=en | remaining=1523s
+2026-03-15T05:16:02Z [INFO]   Batch 132 | lang=en | remaining=1506s
+2026-03-15T05:16:12Z [INFO]   Batch 133 | lang=en | remaining=1496s
+2026-03-15T05:16:29Z [INFO]   Batch 134 | lang=en | remaining=1479s
+2026-03-15T05:16:37Z [INFO]   Batch 135 | lang=en | remaining=1471s
+2026-03-15T05:16:46Z [INFO]   Batch 136 | lang=en | remaining=1462s
+2026-03-15T05:17:02Z [INFO]   Batch 137 | lang=en | remaining=1446s
+2026-03-15T05:17:14Z [INFO]   Batch 138 | lang=en | remaining=1434s
+2026-03-15T05:17:25Z [INFO]   Batch 139 | lang=en | remaining=1423s
+2026-03-15T05:17:39Z [INFO]   Batch 140 | lang=en | remaining=1409s
+2026-03-15T05:17:49Z [INFO]   Batch 141 | lang=en | remaining=1400s
+2026-03-15T05:18:00Z [INFO]   Batch 142 | lang=en | remaining=1388s
+2026-03-15T05:18:15Z [INFO]   Batch 143 | lang=en | remaining=1373s
+2026-03-15T05:18:24Z [INFO]   Batch 144 | lang=en | remaining=1364s
+2026-03-15T05:18:34Z [INFO]   Batch 145 | lang=en | remaining=1354s
+2026-03-15T05:18:42Z [INFO]   Batch 146 | lang=en | remaining=1346s
+2026-03-15T05:18:54Z [INFO]   Batch 147 | lang=en | remaining=1334s
+2026-03-15T05:19:08Z [INFO]   Batch 148 | lang=en | remaining=1320s
+2026-03-15T05:19:20Z [INFO]   Batch 149 | lang=en | remaining=1309s
+2026-03-15T05:19:35Z [INFO]   Batch 150 | lang=en | remaining=1294s
+2026-03-15T05:19:45Z [INFO]   Batch 151 | lang=en | remaining=1283s
+2026-03-15T05:20:00Z [INFO]   Batch 152 | lang=en | remaining=1268s
+2026-03-15T05:20:18Z [INFO]   Batch 153 | lang=en | remaining=1250s
+2026-03-15T05:20:36Z [INFO]   Batch 154 | lang=en | remaining=1233s
+2026-03-15T05:20:46Z [INFO]   Batch 155 | lang=en | remaining=1222s
+2026-03-15T05:20:57Z [INFO]   Batch 156 | lang=en | remaining=1212s
+2026-03-15T05:21:07Z [INFO]   Batch 157 | lang=en | remaining=1202s
+2026-03-15T05:21:17Z [INFO]   Batch 158 | lang=en | remaining=1192s
+2026-03-15T05:21:29Z [INFO]   Batch 159 | lang=en | remaining=1180s
+2026-03-15T05:21:41Z [INFO]   Batch 160 | lang=en | remaining=1167s
+2026-03-15T05:21:57Z [INFO]   Batch 161 | lang=en | remaining=1152s
+2026-03-15T05:22:11Z [INFO]   Batch 162 | lang=en | remaining=1137s
+2026-03-15T05:22:27Z [INFO]   Batch 163 | lang=en | remaining=1121s
+2026-03-15T05:22:37Z [INFO]   Batch 164 | lang=en | remaining=1112s
+2026-03-15T05:22:47Z [INFO]   Batch 165 | lang=en | remaining=1101s
+2026-03-15T05:23:05Z [INFO]   Batch 166 | lang=en | remaining=1083s
+2026-03-15T05:23:22Z [INFO]   Batch 167 | lang=en | remaining=1067s
+2026-03-15T05:23:39Z [INFO]   Batch 168 | lang=en | remaining=1050s
+2026-03-15T05:23:49Z [INFO]   Batch 169 | lang=en | remaining=1040s
+2026-03-15T05:23:59Z [INFO]   Batch 170 | lang=en | remaining=1030s
+2026-03-15T05:24:14Z [INFO]   Batch 171 | lang=en | remaining=1015s
+2026-03-15T05:24:24Z [INFO]   Batch 172 | lang=en | remaining=1004s
+2026-03-15T05:24:42Z [INFO]   Batch 173 | lang=en | remaining=987s
+2026-03-15T05:24:55Z [INFO]   Batch 174 | lang=en | remaining=973s
+2026-03-15T05:25:06Z [INFO]   Batch 175 | lang=en | remaining=962s
+2026-03-15T05:25:22Z [INFO]   Batch 176 | lang=en | remaining=947s
+2026-03-15T05:25:34Z [INFO]   Batch 177 | lang=en | remaining=934s
+2026-03-15T05:25:49Z [INFO]   Batch 178 | lang=en | remaining=919s
+2026-03-15T05:25:58Z [INFO]   Batch 179 | lang=en | remaining=910s
+2026-03-15T05:26:11Z [INFO]   Batch 180 | lang=en | remaining=898s
+2026-03-15T05:26:27Z [INFO]   Batch 181 | lang=en | remaining=882s
+2026-03-15T05:26:42Z [INFO]   Batch 182 | lang=en | remaining=867s
+2026-03-15T05:26:56Z [INFO]   Batch 183 | lang=en | remaining=852s
+2026-03-15T05:27:12Z [INFO]   Batch 184 | lang=en | remaining=837s
+2026-03-15T05:27:25Z [INFO]   Batch 185 | lang=en | remaining=823s
+2026-03-15T05:27:39Z [INFO]   Batch 186 | lang=en | remaining=809s
+2026-03-15T05:27:55Z [INFO]   Batch 187 | lang=en | remaining=794s
+2026-03-15T05:28:10Z [INFO]   Batch 188 | lang=en | remaining=778s
+2026-03-15T05:28:20Z [INFO]   Batch 189 | lang=en | remaining=768s
+2026-03-15T05:28:37Z [INFO]   Batch 190 | lang=en | remaining=751s
+2026-03-15T05:28:53Z [INFO]   Batch 191 | lang=en | remaining=735s
+2026-03-15T05:29:09Z [INFO]   Batch 192 | lang=en | remaining=719s
+2026-03-15T05:29:21Z [INFO]   Batch 193 | lang=en | remaining=707s
+2026-03-15T05:29:38Z [INFO]   Batch 194 | lang=en | remaining=690s
+2026-03-15T05:29:50Z [INFO]   Batch 195 | lang=en | remaining=678s
+2026-03-15T05:29:59Z [INFO]   Batch 196 | lang=en | remaining=670s
+2026-03-15T05:30:16Z [INFO]   Batch 197 | lang=en | remaining=652s
+2026-03-15T05:30:30Z [INFO]   Batch 198 | lang=en | remaining=638s
+2026-03-15T05:30:41Z [INFO]   Batch 199 | lang=en | remaining=627s
+2026-03-15T05:30:54Z [INFO]   Batch 200 | lang=en | remaining=614s
+2026-03-15T05:31:04Z [INFO]   Batch 201 | lang=en | remaining=604s
+2026-03-15T05:31:13Z [INFO]   Batch 202 | lang=en | remaining=595s
+2026-03-15T05:31:23Z [INFO]   Batch 203 | lang=en | remaining=586s
+2026-03-15T05:31:34Z [INFO]   Batch 204 | lang=en | remaining=575s
+2026-03-15T05:31:50Z [INFO]   Batch 205 | lang=en | remaining=559s
+2026-03-15T05:31:59Z [INFO]   Batch 206 | lang=en | remaining=549s
+2026-03-15T05:32:18Z [INFO]   Batch 207 | lang=en | remaining=531s
+2026-03-15T05:32:32Z [INFO]   Batch 208 | lang=en | remaining=517s
+2026-03-15T05:32:44Z [INFO]   Batch 209 | lang=en | remaining=504s
+2026-03-15T05:32:54Z [INFO]   Batch 210 | lang=en | remaining=495s
+2026-03-15T05:33:03Z [INFO]   Batch 211 | lang=en | remaining=485s
+2026-03-15T05:33:07Z [INFO]     +1 new rows → data/reviews_en.csv  (run total new: 25  skipped so far: 42175)
+2026-03-15T05:33:13Z [INFO]   Batch 212 | lang=en | remaining=475s
+2026-03-15T05:33:17Z [INFO]     +1 new rows → data/reviews_en.csv  (run total new: 26  skipped so far: 42374)
+2026-03-15T05:33:23Z [INFO]   Batch 213 | lang=en | remaining=466s
+2026-03-15T05:33:26Z [INFO]     +3 new rows → data/reviews_en.csv  (run total new: 29  skipped so far: 42571)
+2026-03-15T05:33:34Z [INFO]   Batch 214 | lang=en | remaining=455s
+2026-03-15T05:33:38Z [INFO]     +4 new rows → data/reviews_en.csv  (run total new: 33  skipped so far: 42767)
+2026-03-15T05:33:43Z [INFO]   Batch 215 | lang=en | remaining=445s
+2026-03-15T05:33:58Z [INFO]   Batch 216 | lang=en | remaining=431s
+2026-03-15T05:34:09Z [INFO]   Batch 217 | lang=en | remaining=419s
+2026-03-15T05:34:24Z [INFO]   Batch 218 | lang=en | remaining=404s
+2026-03-15T05:34:28Z [INFO]     +1 new rows → data/reviews_en.csv  (run total new: 34  skipped so far: 43566)
+2026-03-15T05:34:43Z [INFO]   Batch 219 | lang=en | remaining=385s
+2026-03-15T05:34:47Z [INFO]     +3 new rows → data/reviews_en.csv  (run total new: 37  skipped so far: 43763)
+2026-03-15T05:35:02Z [INFO]   Batch 220 | lang=en | remaining=367s
+2026-03-15T05:35:15Z [INFO]   Batch 221 | lang=en | remaining=353s
+2026-03-15T05:35:25Z [INFO]   Batch 222 | lang=en | remaining=344s
+2026-03-15T05:35:37Z [INFO]   Batch 223 | lang=en | remaining=332s
+2026-03-15T05:35:54Z [INFO]   Batch 224 | lang=en | remaining=315s
+2026-03-15T05:36:07Z [INFO]   Batch 225 | lang=en | remaining=302s
+2026-03-15T05:36:26Z [INFO]   Batch 226 | lang=en | remaining=282s
+2026-03-15T05:36:36Z [INFO]   Batch 227 | lang=en | remaining=273s
+2026-03-15T05:36:45Z [INFO]   Batch 228 | lang=en | remaining=264s
+2026-03-15T05:37:00Z [INFO]   Batch 229 | lang=en | remaining=248s
+2026-03-15T05:37:16Z [INFO]   Batch 230 | lang=en | remaining=233s
+2026-03-15T05:37:30Z [INFO]   Batch 231 | lang=en | remaining=218s
+2026-03-15T05:37:47Z [INFO]   Batch 232 | lang=en | remaining=201s
+2026-03-15T05:37:56Z [INFO]   Batch 233 | lang=en | remaining=192s
+2026-03-15T05:38:11Z [INFO]   Batch 234 | lang=en | remaining=178s
+2026-03-15T05:38:22Z [INFO]   Batch 235 | lang=en | remaining=166s
+2026-03-15T05:38:39Z [INFO]   Batch 236 | lang=en | remaining=149s
+2026-03-15T05:38:57Z [INFO]   Batch 237 | lang=en | remaining=131s
+2026-03-15T05:39:15Z [INFO]   Batch 238 | lang=en | remaining=113s
+2026-03-15T05:39:34Z [INFO]   Batch 239 | lang=en | remaining=94s
+2026-03-15T05:39:50Z [INFO]   Batch 240 | lang=en | remaining=79s
+2026-03-15T05:40:04Z [INFO]   Batch 241 | lang=en | remaining=64s
+2026-03-15T05:40:18Z [INFO]   Batch 242 | lang=en | remaining=50s
+2026-03-15T05:40:23Z [INFO]     +5 new rows → data/reviews_en.csv  (run total new: 42  skipped so far: 48358)
+2026-03-15T05:40:34Z [INFO]   Batch 243 | lang=en | remaining=34s
+2026-03-15T05:40:39Z [INFO]     +200 new rows → data/reviews_en.csv  (run total new: 242  skipped so far: 48358)
+2026-03-15T05:40:39Z [INFO] Stopping: shutdown or timeout reached.
+2026-03-15T05:40:39Z [INFO] Run complete — new=242  total_ids=48642  skipped=48358  duration=2971s
