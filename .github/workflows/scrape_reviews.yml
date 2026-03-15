@@ -1,9 +1,6 @@
 name: Scrape Play Store Reviews
 
 on:
-  schedule:
-    # Every 2 hours
-    - cron: "0 */2 * * *"
   # Allow manual trigger from the Actions UI
   workflow_dispatch:
 
